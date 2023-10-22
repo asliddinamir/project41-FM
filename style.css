@@ -322,7 +322,6 @@ body {
 
 #fn {
     width: 150%;
-    background-color: red;
 }
 
 .fii a {
@@ -361,12 +360,19 @@ body {
 
 .attribution {
     text-align: center;
-    background-color: red;
     position: fixed;
     bottom: 0;
     padding: .5rem 0;
     width: 100%;
     text-align: center;
+    background: hsl(219, 30%, 18%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 12px;
+    font-family: var(--open_sans);
+}
+
+.attribution a {
+    color: red;
 }
 
 @media(max-width:985px) {
