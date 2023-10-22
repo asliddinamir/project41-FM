@@ -265,3 +265,106 @@ body {
 .formBtn:hover {
     background: linear-gradient(90deg, #9ae8e3, #63bee5);
 }
+
+.footer {
+    background-color: hsl(216, 53%, 9%);
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+}
+
+.footer_inner {
+    padding: 1rem;
+    font-size: 16px;
+    font-family: var(--open_sans);
+}
+
+@media(min-width:1100px) {
+    .footer_inner {
+        padding: 5rem;
+    }
+}
+
+.fi {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.fii {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    justify-content: start;
+    width: 100%;
+}
+
+.fiis {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+}
+
+#lorem {
+    width: 220%;
+    line-height: 1.5;
+}
+
+#lorem img {
+    min-width: 18px;
+    max-width: 18px;
+}
+
+#fn {
+    width: 150%;
+    background-color: red;
+}
+
+.fii a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.fii a:hover {
+    opacity: 1;
+    font-weight: 600;
+}
+
+
+#icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#icons i:hover {
+    color: hsl(176, 68%, 64%);
+    border: 2px solid hsl(176, 68%, 64%);
+}
+
+#facebook {
+    padding: 10px 14px !important;
+}
+
+.attribution {
+    text-align: center;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    padding: .5rem 0;
+    width: 100%;
+    text-align: center;
+}
