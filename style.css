@@ -368,3 +368,21 @@ body {
     width: 100%;
     text-align: center;
 }
+
+@media(max-width:985px) {
+    .footer_inner {
+        padding-block: 5rem;
+    }
+
+    .fi {
+        flex-direction: column;
+    }
+
+    #lorem {
+        width: 90%;
+    }
+
+    #icons {
+        justify-content: center;
+    }
+}
