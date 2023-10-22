@@ -393,7 +393,7 @@ body {
     }
 
     .testimonials {
-        padding: 5rem 3rem;
+        padding: 5rem 1rem;
     }
 }
 
@@ -425,6 +425,66 @@ body {
     }
 
     .access {
-        min-width: 600px;
+        width: 600px;
+        /* max-width: 600px; */
+    }
+
+    .comp {
+        width: 90%;
+    }
+
+    .hero2_templates {
+        width: 100%;
+    }
+}
+
+@media(max-width:665px) {
+    .logo {
+        width: 120px;
+    }
+
+    .nav a {
+        font-size: 13px;
+        margin: 0 .4rem;
+    }
+
+    .header {
+        padding: 2rem 1rem;
+    }
+
+    .hero2_info {
+        width: 90%;
+    }
+
+    .hero2_info h1 {
+        font-size: 25px;
+    }
+
+    .hero2_templates {
+        width: 100%;
+    }
+
+    .hero2_template {
+        flex-basis: 90%;
+    }
+
+    .access {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .formBtn,
+    .form input {
+        width: 100%;
+    }
+
+    .form input {
+        font-size: 14px;
+        padding: 1rem 1.5rem;
     }
 }
