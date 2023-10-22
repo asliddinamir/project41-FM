@@ -183,6 +183,7 @@ body {
     font-family: var(--open_sans);
     font-size: 15px;
     width: 350px;
+    box-shadow: rgba(149, 145, 145, 0.35) 0px 5px 5px;
 }
 
 .author {
